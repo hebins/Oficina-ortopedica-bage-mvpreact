@@ -1,5 +1,3 @@
-// react/componentes/newscard.jsx
-
 import React from 'react';
 
 function NewsCard({ imageSrc, imageAlt, title, date, excerpt, link }) {
@@ -17,5 +15,6 @@ function NewsCard({ imageSrc, imageAlt, title, date, excerpt, link }) {
     </article>
   );
 }
+
 
 export default NewsCard;

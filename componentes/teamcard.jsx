@@ -1,5 +1,3 @@
-// react/componentes/teamcard.jsx
-
 import React from 'react';
 
 function TeamCard({ imageSrc, imageAlt, name, role, specialty, details }) {
@@ -15,5 +13,6 @@ function TeamCard({ imageSrc, imageAlt, name, role, specialty, details }) {
     </div>
   );
 }
+
 
 export default TeamCard;
